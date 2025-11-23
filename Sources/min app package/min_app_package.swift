@@ -20,8 +20,9 @@ public struct MySwiftUIScreen: View {
 
     public var body: some View {
         VStack {
-            Text("SwiftUI Screen")
+            Text("SwiftUI Screen").font(Font.largeTitle)
             Text(text)
+            Text("From githup")
         }
         .padding()
     }
